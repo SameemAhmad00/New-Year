@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+body {
+    font-family:Nunito;
+    /*background:#f8f9fb;
+    color:#4e42d4;*/
+    color:white;
+    margin:0;
+    background:black;
+    /* photo from pexels.com - olia danilevich*/
+     background-image:url("https://www.dropbox.com/scl/fi/6xzwxoaivmfxxjvoonbqg/pexels-olia-danilevich-5847901.jpg?rlkey=odtnodastgbdnloimlv3misw6&raw=1");
+    background-size:auto 100vh;
+    
+}
+body>div>*{
+    position:relative;
+    left:50%;
+    transform:translate(-50%);
+}
+.countdown
+{
+    font-weight:1000;
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    margin-bottom:0px;
+    width:300px;
+}
+.countdown>span:not(.sp)
+{
+    max-width:50px;
+    min-width:50px;
+    padding:5px;
+}
+.titles
+{
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    margin-top:0px;
+    width:300px;
+}
+.titles>div
+{
+    min-width:50px;
+    max-width:50px;
+    backdrop-filter:blur(10px);
+    padding:5px;
+    border-radius:10px;
+}
+.sp
+{
+    width:10px;
+    min-width:10px;
+    max-width:10px;
+}
+.larger
+{
+    font-size:22px;
+}
+.info
+{
+    margin-top:20px;
+    width:300px;
+}
+b
+{
+    font-weight:1000;
+}
+p
+{
+    padding:5px;
+    border-radius:5px;
+    backdrop-filter:blur(10px);
+}
+.alinear
+{
+    position:absolute;
+    top:40%;
+    width:100%;
+    transform:translate(0%, -50%);
+}
